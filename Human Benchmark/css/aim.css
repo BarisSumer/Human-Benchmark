@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+    height: 600px;
+    margin-top: 40px;
+    color: white;
+    background-color: #2B87D1;
+    text-align: center;
+}
+
+.container h1{
+    font-size: 100px;
+}
+
+.container i{
+    font-size: 100px;
+    padding: 50px;
+}
+
+.inner-circle-big::before,
+.inner-circle-big::after {
+    content: "";
+    position: absolute;
+    background-color: white;
+}
+
+.inner-circle-big::before {
+    width: 5px;
+    height: 95px;
+}
+
+.inner-circle-big::after {
+    width: 95px;
+    height: 5px;
+}
+
+.target-container{
+    padding-bottom: 40px;
+    padding-top: 40px;
+    border-radius: 50%;
+}
+
+.inner-circle-big {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border: 2px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#95C3E8;
+}
+
+.inner-circle-small {
+    width: 55px;
+    height: 55px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.container p{
+    font-size: 26px;
+    padding-bottom: 10px;
+}
+
+#game-screen{
+    
+    height: 600px;
+    margin-top: 40px;
+    color: white;
+    background-color: #2B87D1;
+    text-align: center;
+    position: relative;
+}
+
+
+#game-end-screen{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: #2B87D1;
+    color: white;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#game-end-screen p{
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+#game-end-screen h1{
+    font-size: 70px;
+    padding-bottom: 10px;
+}
+
+#game-end-screen button{
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    border: 1px solid gold;
+    background-color: gold;
+    border-radius: 10px;
+    margin: 30px 10px;
+    color: rgb(60, 25, 174);
+    cursor: pointer;
+}
+
+#game-end-screen button:hover{
+    background-color: rgb(60, 25, 174);
+    color: gold;
+}
+
+

@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: #2B87D1;
+    height: 500px;
+    color: white;
+}
+
+.container h1{
+    font-size: 70px;
+}
+
+.container p{
+    font-size: 28px;
+    padding-top: 30px;
+}
+
+.container button{
+    width: 120px;
+    height: 50px;
+    margin-top: 50px;
+    font-size: 24px;
+    border: 1px solid gold;
+    background-color: gold;
+    color: rgb(82, 7, 82);
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.container button:hover{
+    background-color: rgb(82, 7, 82);
+    color: gold;
+}
+
+.loading-bar-container {
+    width: 20%;
+    height: 20px;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .loading-bar {
+    width: 100%;
+    height: 100%;
+    background-color: #4caf50;
+    animation: loadingAnimation 5s linear forwards;
+  }
+  
+  @keyframes loadingAnimation {
+    from {
+      margin-right: 100%;
+      width: 100%;
+    }
+    to {
+      margin-right: 0%;
+      width: 0%;
+    }
+  }
+
+
+  .answer{
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    height: 500px;
+    background-color: #2B87D1;
+    color: white;
+  }
+
+  .answer h1{
+    padding-bottom: 30px;
+  }
+
+  .answer input{
+    margin-top: 20px;
+    font-size: 26px;
+    width: 400px;
+  }
+
+  .answer button{
+    width: 120px;
+    height: 50px;
+    margin-top: 50px;
+    font-size: 24px;
+    border: 1px solid gold;
+    background-color: gold;
+    color: rgb(82, 7, 82);
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .answer button:hover{
+    background-color: rgb(82, 7, 82);
+    color: gold;
+}
+
+
+#game-end-screen{
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  height: 550px;
+  background-color: #2B87D1;
+  color: white;
+}
+  
+
+#number,#your-number{
+  font-size: 80px;
+  margin-top: 20px;
+}
+
+#level{
+  font-size: 70px;
+  margin-bottom: 40px;
+}
+
+.button{
+  width: 250px;
+  height: 50px;
+  margin-top: 50px;
+  font-size: 24px;
+  border: 1px solid gold;
+  background-color: gold;
+  color: rgb(82, 7, 82);
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.button:hover{
+  background-color: rgb(82, 7, 82);
+  color: gold;
+}
+  

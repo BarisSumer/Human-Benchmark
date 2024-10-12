@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/number.css">
+    <title>Number Memory</title>
+</head>
+<body>
+    
+    <div class="container" id="start-screen">
+        <h1>Number Memory</h1>
+        <p>The average person can remember 7 numbers at once. Can you do more?</p>
+        <button id="start-button">Start</button>
+    </div>
+
+    <div class="container" id="game-screen">
+        <h1 id="random-number">5</h1>
+        <div class="loading-bar-container">
+            <div id="loading-bar" class="loading-bar"></div>
+          </div>
+    </div>
+
+    <div class="answer" id="answer-screen">
+        <h1>What was the number?</h1>
+        <input id="input-number" type="text">
+        <button id="submit-button">Submit</button>
+    </div>
+
+    <div id="game-end-screen">
+        <h1>Number</h1>
+        <h1 id="number"></h1>
+        <h1>Your Number</h1>
+        <h1 id="your-number"></h1>
+        <h1 id = "level"></h1>
+        <div>
+            <button id="try-again-button" class="button">Try again</button>
+            <button id="back-home-button" class="button">Back Home Page</button>
+        </div>
+        
+    </div>
+
+    <script src="js/number.js"></script>
+</body>
+</html>

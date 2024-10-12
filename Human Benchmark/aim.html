@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/aim.css">
+    <title>Aim Trainer</title>
+</head>
+<body>
+    <div class="container" id="start-screen">
+        <h1>Aim Trainer</h1>
+        <div class="target-container">
+            <div class="inner-circle-big" id="game-start-button">
+                <div class="inner-circle-small">
+
+                </div>
+            </div>
+        </div>
+        <p>Hit 10 targets as quickly as you can.</p>
+        <p>Click the target above to begin.</p>
+        <div></div>
+    </div>
+
+    <div id="game-screen">
+        <h1 id="remaining">Remaining: </h1>
+        <div class="target-container"id="target">
+            <div class="inner-circle-big">
+                <div class="inner-circle-small">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="game-end-screen">
+        <div class="target-container">
+            <div class="inner-circle-big">
+                <div class="inner-circle-small">
+
+                </div>
+            </div>
+        </div>
+        <p>Average time per target</p>
+        <h1 id="average-ms"></h1>
+        <div class="button-container">
+            <button id="try-again">Try again</button>
+            <button id="back-home">Back home page</button>
+        </div>
+        
+    </div>
+
+    
+
+
+
+    <script src="js/aim.js"></script>
+    <script src="https://kit.fontawesome.com/e70391d5bf.js" crossorigin="anonymous"></script>
+</body>
+</html>

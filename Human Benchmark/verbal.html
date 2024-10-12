@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link rel="stylesheet" href="css/verbal.css">
+    <title>Verbal Memory</title>
+</head>
+<body>
+
+    <div class="container" id="start-screen">
+        <i class="fas fa-solid fa-book"></i>
+        <h1>Verbal Memory Test</h1>
+        <p>You will be shown words, one at a time. If you've seen a word during the test.</p>
+        <p>Click SEEN If it's a new word, click NEW</p>
+        <button id="game-start-button">Start</button>
+    </div>
+
+    <div class="container" id="game-screen">
+        <div class="container-info">
+            <h2 id="lives"></h2>
+            <h2 id="score"></h2>
+        </div>
+        <h1 id="word"></h1>
+        <div>
+            <button id="seen-button">SEEN</button>
+            <button id="new-button">NEW</button>
+        </div>
+    </div>
+
+    <div class="container" id="game-end-screen">
+        <h2>Verbal Memory</h2>
+        <h1 id="word-label"></h1>
+        <div>
+            <button id="try-again-button">Try Again</button>
+            <button id="back-page-button">Back Home Page</button>
+        </div>
+    </div>
+    
+
+
+    <script src="https://kit.fontawesome.com/e70391d5bf.js" crossorigin="anonymous"></script>
+    <script src="js/verbal.js"></script>
+</body>
+</html>
